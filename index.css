@@ -1,0 +1,16 @@
+div{
+  display: flex;
+  flex-wrap: wrap;
+}
+span{
+  width: 60px;
+  height: 60px;
+  /* border: 1px solid black; */
+  border-radius: 10px;
+  animation-name: sample;
+  animation-duration: 2s;
+}
+span:hover{
+  background:orange;
+  box-shadow: 6px 6px 30px rgb(52, 50, 50);
+}
